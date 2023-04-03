@@ -13,7 +13,7 @@ export const Title = styled.Text`
   color: ${({ theme }) => theme.COLORS.WHITE};
 `;
 
-export const SubTitle = styled.Text`
+export const Subtitle = styled.Text`
   text-align: center;
 
   font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
