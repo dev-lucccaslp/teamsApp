@@ -4,7 +4,7 @@ type Props = {
   message: string;
 }
 
-export function ListEmpty({message}:Props) {
+export function ListEmpty({message}: Props) {
   return (
     <Container>
       <Message>
