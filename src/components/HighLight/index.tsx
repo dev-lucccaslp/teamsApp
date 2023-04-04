@@ -6,7 +6,7 @@ type Props = {
   subtitle: string;
 }
 
-export default function HighLight({title, subtitle}:Props) {
+export function HighLight({title, subtitle}:Props) {
   return (
     <Container>
       <Title>
