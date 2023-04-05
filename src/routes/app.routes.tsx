@@ -10,7 +10,7 @@ import React from 'react'
 
 export function AppRoutes() {
   return (
-    <Navigator screenOptions={{ headerShown: false }}>
+    <Navigator initialRouteName='groups' screenOptions={{ headerShown: false }}>
       <Screen 
         name = 'groups'
         component={Groups}
@@ -22,7 +22,7 @@ export function AppRoutes() {
       />
 
       <Screen 
-        name = 'playersg'
+        name = 'players'
         component={Players}
       />
     </Navigator>
