@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FlatList } from 'react-native';
+import { useNavigation } from '@react-navigation/native'
 
 import { Header } from '@components/Header';
 import { HighLight } from '@components/HighLight';
@@ -11,6 +12,7 @@ import { Button } from '@components/Button';
 
 export function Groups() {
   const [ groups, setGroups ] = useState<string[]>([]);
+
   return (
     <Container>
       <Header />
