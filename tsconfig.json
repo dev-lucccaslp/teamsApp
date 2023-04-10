@@ -16,9 +16,9 @@
       "@screens/*": [
         "./src/screens/*"
       ],
-      "@storage/*": [
-        "./src/storagev"
-      ],
+      // "@storage/*": [
+      //   "./src/storage"
+      // ],
       "@theme/*": [
         "./src/theme/*"
       ],
